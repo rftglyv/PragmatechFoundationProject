@@ -6,50 +6,52 @@
     <meta name="viewport" content="width=++, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>rftglyv</title>
-    <div class="center">
+
+    <div class="bg t-cont center">
         <h1>Table of contents</h1>
-        <a href="#a">Intro</a>
-        <a href="#b">History</a>
-        <a href="#c">Versions</a>
+        <button><a class="t-cont link" href="#a">Intro</a></button>
+        <button><a class="t-cont link" href="#b">History</a></button>
+        <button><a class="t-cont link" href="#c">Versions</a></button>
     </div>
+
 </head>
-<body>
-    <div>
-        <hr>
-        <a name="a"><h1 class="center">HTML</h1></a>
-        <hr>
+<body class="bg">
+<div class="shade">
+    <a name="a"><h1 class="center">HTML</h1></a>
+    <div class="text">
         <p>The <b>HyperText Markup Language</b> or <b>HTML</b> is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
         <p>HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by <i>tags</i>, written using angle brackets. Tags such as <b><code>img</code></b> and <b><code>input</code></b> directly introduce content into the page. Other tags such as <b><code>p</code></b> surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags but use them to interpret the content of the page.</p>
     </div>
 
-    <div>
-        <hr>
-        <a name="b"><h1 class="center">History</h1></a>
-        <hr>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Tim_Berners-Lee_April_2009.jpg/170px-Tim_Berners-Lee_April_2009.jpg" alt="Tim Berners-Lee">
-        <p>In 1980, Tim Berners-Lee, a contractor at, proposed and prototyped, a system for CERN researchers to use and share documents. In 1989, Berners-Lee wrote a memo proposing an internet-based hypertext system. Berners-Lee specified HTML and wrote the browser and server software in late 1990. That year, Berners-Lee and CERN data systems engineer Robert Cailliau collaborated on a joint request for funding, but the project was not formally adopted by CERN. In his personal notes from 1990 he listed "some of the many areas in which hypertext is used" and put an encyclopedia first.</p>
+
+    <a name="b"><h1 class="center">History</h1></a>
+    <div class="text">
+        <table>
+            <tr>
+              <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Tim_Berners-Lee_April_2009.jpg/170px-Tim_Berners-Lee_April_2009.jpg" alt="Tim Berners-Lee"></td>
+              <td><p>In 1980, Tim Berners-Lee, a contractor at, proposed and prototyped, a system for CERN researchers to use and share documents. In 1989, Berners-Lee wrote a memo proposing an internet-based hypertext system. Berners-Lee specified HTML and wrote the browser and server software in late 1990. That year, Berners-Lee and CERN data systems engineer Robert Cailliau collaborated on a joint request for funding, but the project was not formally adopted by CERN. In his personal notes from 1990 he listed "some of the many areas in which hypertext is used" and put an encyclopedia first.</p></td>
+            </tr>
+          </table>
     </div>
 
-    <div>
-        <hr>
-        <a name="c"><h1 class="center">HTML versions timeline</h1></a>
-        <hr>
-        <ul>
-            <li>HTML2</li>
-            <li>HTML3</li>
-            <li>HTML4</li>
-            <li>HTML5</li>
+        
+    <a name="c"><h1 class="center">Versions timeline</h1></a>
+    <div class="text">
+        <ul class="tl">
+            <li>HTML2 - <b>November 24, 1995</b></li>
+            <li>HTML3 - <b>January 14, 1997</b></li>
+            <li>HTML4 - <b>December 18, 1997</b></li>
+            <li>HTML5 - <b>October 28, 2014</b></li>
         </ul>
     </div>
+</div>
 </body>
 <footer>
-    <div class="center">
-        <form action="#">
-            <input type="submit" value="Go up"/>
-        </form>
+    <div class="t-cont center">
+        <button><a class="up-btn link" href="#">Go up</a></button>
     </div>
     <div class="cr">
-    <a href="https://github.com/rftglyv" title="Made with help of google :)">rftglyv</a>
+    <a class="link" href="https://github.com/rftglyv" title="He powered by google :)">Made by rftglyv</a>
     </div>
 </footer>
 </html>
