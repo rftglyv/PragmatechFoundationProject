@@ -5,6 +5,10 @@
 }
 .cr
 {
+    text-align: right;
+}
+.cr a
+{
     color: black;
     font-family: monospace;
     text-decoration: none;
