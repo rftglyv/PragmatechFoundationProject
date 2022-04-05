@@ -1,6 +1,6 @@
 # This Folder Created For Debugging
 
-## Last Bug Fix
+## Latest Bug Fix
 
 ### Task D6
 
