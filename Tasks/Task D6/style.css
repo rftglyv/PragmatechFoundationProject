@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+body
+{
+    font-family: 'Quicksand', sans-serif;
+}
+.news-list
+{
+    display: flex;
+    width: 940px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.news-list-ctn
+{
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.news-list-ctn-details
+{
+    border: solid 1px gray;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    width: 30%;
+    margin: 5px;
+    justify-content: space-between;
+}
+.news-list-ctn-details img
+{
+    display: block;
+    width: 250px;
+}
+.news-list-ctn-details h4
+{
+    margin-top: 10px;
+    width: 200px;
+    text-align: center;
+    color: blue;
+}
+.news-list-ctn-details-btns
+{
+    display: inline-flex;
+}
+.btns-all
+{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    color: gray;
+}
+.btns-all p
+{
+    margin: 0 5px;
+}
