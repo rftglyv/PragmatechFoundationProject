@@ -1,6 +1,5 @@
 .about-us
 {
-    outline: solid black;
     width: auto;
     height: 625px;
     display: flex;
@@ -9,7 +8,6 @@
 }
 .abt-cont
 {
-    outline: solid red;
     margin: 25px;
     width: auto;
     height: 600px;
@@ -18,7 +16,6 @@
 }
 .abt-cont-info
 {
-    outline: solid yellow;
     display: inline-flex;
     margin: 25px;
     align-items: center;
@@ -26,7 +23,6 @@
 }
 .abt-cont-info-img
 {
-    outline: solid green;
     display: block;
     background: repeating-linear-gradient( 45deg, #444cf7, #444cf7 5px, #e5e5f7 5px, #e5e5f7 15px );
     padding: 100px;
@@ -34,12 +30,10 @@
 }
 .abt-cont-info-img-txt
 {
-    outline: solid lightgreen;
     margin: 20px;
 }
 .abt-cont-info-img-2
 {
-    outline: solid green;
     display: block;
     background: repeating-linear-gradient( 45deg, #8e93fa, #8e93fa 3px, #e5e5f7 3px, #e5e5f7 10px );
     padding: 10px 35px;
@@ -47,13 +41,11 @@
 }
 .abt-cont-info-details
 {
-    outline: solid blue;
     margin: 20px;
     text-align: center;
 }
 .abt-cont-info-btn-more
 {
-    outline: solid orange;
     padding: 8px 16px;
     text-align: center;
     display: block;

@@ -7,7 +7,6 @@ body
 }
 .footer
 {
-    outline: solid white;
     width: auto;
     height: 925px;
     display: flex;
@@ -64,7 +63,6 @@ body
 }
 .footer-grid-container
 {
-    outline: solid #8e93fa;
     display: grid;
     padding: 20px;
     gap: 40px;
@@ -74,7 +72,6 @@ body
 }
 .ft-grid-item-1
 {
-    outline: solid #e5e5f7;
     grid-column-start: 1;
     grid-column-end: 2;
 }
@@ -85,7 +82,6 @@ body
 }
 .ft-grid-ctn-about img
 {
-    outline: solid yellow;
     display: block;
     background: repeating-linear-gradient( 45deg, #8e93fa, #8e93fa 3px, #e5e5f7 3px, #e5e5f7 10px );
     height: 20px;
@@ -93,7 +89,6 @@ body
 }
 .ft-grid-ctn-about-info img
 {
-    outline: solid yellow;
     display: block;
     background: repeating-linear-gradient( 45deg, #8e93fa, #8e93fa 3px, #e5e5f7 3px, #e5e5f7 10px );
     height: 20px;
@@ -102,7 +97,6 @@ body
 }
 .ft-grid-item-2
 {
-    outline: solid #e5e5f7;
     grid-row-start: 2;
     grid-row-end: 2;
     grid-column-start: 1;
@@ -110,7 +104,6 @@ body
 }
 .ft-grid-ctn-oh img
 {
-    outline: solid orange;
     display: block;
     background: repeating-linear-gradient( 45deg, #8e93fa, #8e93fa 3px, #e5e5f7 3px, #e5e5f7 10px );
     height: 20px;
@@ -122,7 +115,6 @@ body
 }
 .ft-grid-item-3
 {
-    outline: solid #e5e5f7;
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 2;
@@ -135,7 +127,6 @@ body
 }
 .ft-grid-ctn-rt img
 {
-    outline: solid green;
     display: block;
     background: repeating-linear-gradient( 45deg, #8e93fa, #8e93fa 3px, #e5e5f7 3px, #e5e5f7 10px );
     height: 20px;
@@ -143,7 +134,6 @@ body
 }
 .ft-grid-ctn-rt-details
 {
-    outline: solid green;
     margin: 5px;
 }
 .ft-grid-ctn-rt-details-p-head
@@ -153,7 +143,6 @@ body
 }
 .ft-grid-ctn-rt-details-p-head img
 {
-    outline: solid yellow;
     display: block;
     background: repeating-linear-gradient( 45deg, #8e93fa, #8e93fa 3px, #e5e5f7 3px, #e5e5f7 10px );
     height: 20px;
@@ -167,7 +156,6 @@ body
 }
 .ft-grid-item-4
 {
-    outline: solid #e5e5f7;
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 3;
@@ -175,7 +163,6 @@ body
 }
 .ft-grid-ctn-cf img
 {
-    outline: solid orange;
     display: block;
     background: repeating-linear-gradient( 45deg, #8e93fa, #8e93fa 3px, #e5e5f7 3px, #e5e5f7 10px );
     height: 20px;
