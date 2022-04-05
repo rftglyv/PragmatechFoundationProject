@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@100&display=swap');
+body
+{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #0B0A0A;
+    color: white;
+}
+.footer
+{
+    outline: solid white;
+    width: auto;
+    height: 925px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ft-head
+{
+    display: inline-block;
+    width: auto;
+    margin: 5px;
+    padding: 10px 20px;
+}
+.ft-head-appointment
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid 1px rgb(60, 60, 60);
+    padding: 20px 35px;
+    margin: 30px;
+}
+.ft-head-appointment img
+{
+    display: inline-block;
+    align-self: flex-start;
+    background: repeating-linear-gradient( 45deg, #8e93fa, #8e93fa 3px, #e5e5f7 3px, #e5e5f7 10px );
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.ft-head-appointment-txt
+{
+    display: inline-block;
+    text-align: left;
+}
+.ft-head-appointment-txt p
+{
+    font-weight: 200;
+}
+.ft-head-appoint-sub-btn
+{
+    border: none;
+    border-radius: 20px;
+    background-color: #0062ff;
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 20px 0 20px 75px;
+    cursor: pointer;
+}
+.footer-grid-container
+{
+    outline: solid #8e93fa;
+    display: grid;
+    padding: 20px;
+    gap: 40px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    margin-top: 100px;
+}
+.ft-grid-item-1
+{
+    outline: solid #e5e5f7;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.ft-grid-ctn-about
+{
+    display: inline-flex;
+    flex-direction: column;
+}
+.ft-grid-ctn-about img
+{
+    outline: solid yellow;
+    display: block;
+    background: repeating-linear-gradient( 45deg, #8e93fa, #8e93fa 3px, #e5e5f7 3px, #e5e5f7 10px );
+    height: 20px;
+    width: 60px;
+}
+.ft-grid-ctn-about-info img
+{
+    outline: solid yellow;
+    display: block;
+    background: repeating-linear-gradient( 45deg, #8e93fa, #8e93fa 3px, #e5e5f7 3px, #e5e5f7 10px );
+    height: 20px;
+    width: 20px;
+    margin: 5px 5px 5px 5px;
+}
+.ft-grid-item-2
+{
+    outline: solid #e5e5f7;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.ft-grid-ctn-oh img
+{
+    outline: solid orange;
+    display: block;
+    background: repeating-linear-gradient( 45deg, #8e93fa, #8e93fa 3px, #e5e5f7 3px, #e5e5f7 10px );
+    height: 20px;
+    width: 60px;
+}
+.ft-grid-ctn-oh-tt td
+{
+    padding: 5px;
+}
+.ft-grid-item-3
+{
+    outline: solid #e5e5f7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.ft-grid-ctn-rt
+{
+    display: inline-flex;
+    flex-direction: column;
+}
+.ft-grid-ctn-rt img
+{
+    outline: solid green;
+    display: block;
+    background: repeating-linear-gradient( 45deg, #8e93fa, #8e93fa 3px, #e5e5f7 3px, #e5e5f7 10px );
+    height: 20px;
+    width: 60px;
+}
+.ft-grid-ctn-rt-details
+{
+    outline: solid green;
+    margin: 5px;
+}
+.ft-grid-ctn-rt-details-p-head
+{
+    display: inline-flex;
+    align-items: center;
+}
+.ft-grid-ctn-rt-details-p-head img
+{
+    outline: solid yellow;
+    display: block;
+    background: repeating-linear-gradient( 45deg, #8e93fa, #8e93fa 3px, #e5e5f7 3px, #e5e5f7 10px );
+    height: 20px;
+    width: 20px;
+    margin: 5px 5px 5px 5px;
+}
+.ft-grid-ctn-rt-details-p-time
+{
+    font-weight: 100;
+    font-size: 10px;
+}
+.ft-grid-item-4
+{
+    outline: solid #e5e5f7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.ft-grid-ctn-cf img
+{
+    outline: solid orange;
+    display: block;
+    background: repeating-linear-gradient( 45deg, #8e93fa, #8e93fa 3px, #e5e5f7 3px, #e5e5f7 10px );
+    height: 20px;
+    width: 60px;
+}
+#fullname
+{
+    border: none;
+    border-radius: 20px;
+    background-color: #3436388c;
+    color: white;
+    padding: 10px 50px;
+    margin: 10px;
+}
+#email
+{
+    border: none;
+    border-radius: 20px;
+    background-color: #3436388c;
+    color: white;
+    padding: 10px 50px;
+    margin: 10px;
+}
+#message
+{
+    border: none;
+    border-radius: 20px;
+    background-color: #3436388c;
+    color: white;
+    padding: 50px 50px;
+    margin: 10px;
+}
+#submit
+{
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 125, 0);
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 20px 0 20px 75px;
+    cursor: pointer;
+}
