@@ -4,4 +4,4 @@
 
 ### Task D6
 
-#### Justified button. Added new hover animation. 
+Justified button. Added new hover animation
