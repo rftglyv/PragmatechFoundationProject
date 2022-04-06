@@ -10,7 +10,6 @@ body
 }
 .news-list
 {
-    outline: solid black;
     display: flex;
     width: 940px;
     flex-direction: row;
@@ -19,12 +18,12 @@ body
 }
 .news-list-ctn
 {
-    outline: solid yellow;
     display: flex;
     flex-direction: column;
     width: 30%;
     padding: 30px 10px;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 .news-list-ctn-details
 {
@@ -61,7 +60,7 @@ body
 }
 .btns-all p
 {
-    margin: 0 10px;
+    margin: 0 0 0 10px;
 }
 .btns-all button
 {
