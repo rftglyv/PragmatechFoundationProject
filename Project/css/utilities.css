@@ -1,0 +1,97 @@
+/* Utilities */
+
+/* Outlines */
+.ol-black
+{
+    outline: solid black;
+}
+.ol-blue
+{
+    outline: solid blue;
+}
+.ol-red
+{
+    outline: solid red;
+}
+.ol-green
+{
+    outline: solid green;
+}
+.ol-purple
+{
+    outline: solid purple;
+}
+
+/*  Flex
+    i - inline
+    fd - flex direction
+    fw - flex wrap
+    ac - align content
+    jc - justify content
+    ai - align items
+*/
+.flex
+{
+    display: flex;
+}
+.i-flex
+{
+    display: inline-flex;
+}
+.fd-column
+{
+    flex-direction: column;
+}
+.fw-wrap
+{
+    flex-wrap: wrap;
+}
+.ac-start
+{
+    align-content: flex-start;
+}
+.ac-center
+{
+    align-content: center;
+}
+.ac-end
+{
+    align-content: flex-end;
+}
+.jc-start
+{
+    justify-content: flex-start;
+}
+.jc-center
+{
+    justify-content: center;
+}
+.jc-sb
+{
+    justify-content: space-between;
+}
+.jc-se
+{
+    justify-content: space-evenly;
+}
+.jc-sa
+{
+    justify-content: space-around;
+}
+.jc-end
+{
+    justify-content: end;
+}
+.ai-start
+{
+    align-items: flex-start;
+}
+.ai-center
+{
+    align-items: center;
+}
+.ai-end
+{
+    align-items: flex-end;
+}
+/* Flex end */
