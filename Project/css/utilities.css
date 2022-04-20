@@ -203,6 +203,18 @@
     color: white;
 }
 
+.txt-col-black
+{
+    color: black;
+}
+
+/* text markup */
+
+.txt-center
+{
+    text-align: center;
+}
+
 /* paddings */
 
 .py-x {
