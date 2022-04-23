@@ -7,174 +7,110 @@
     <script src="https://kit.fontawesome.com/44e05cc47c.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Inter:wght@100;400;500&family=Jost:wght@100;300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&family=Roboto+Serif:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utilities.css">
-    <title>Nomady</title>
+    <title>SpirIT</title>
 </head>
 <body>
-    <!-- Header -->
-    <header class="flex fd-column ai-center">
-        <!-- ol = Outline -->
-        <div class="container-head col-8 i-flex jc-sb">
-            <ul class="social-media i-flex ai-center jc-sb">
-                <li><a href="#"><i class="fa-brands fa-facebook"></a></i></li>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-            </ul>
-            <div class="brand"><a href="#"><img src="http://nomady.minimaldog.net/wp-content/uploads/2020/08/nomady-logo@3x.png" alt="brand"></a></div>
-            <ul class="sbar i-flex ai-center jc-se">
-                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
-            </ul>
-        </div>
-        <nav class="i-flex ai-center jc-se">
-            <ul class="navbar-nav i-flex">
-                <li><a href="">Demos</a></li>
-                <li><a href="">Site Headers</a></li>
-                <li><a href="">Pages</a></li>
-                <li><a href="">Posts</a></li>
-                <li><a href="">Support</a></li>
-                <li><a href="">Documentation</a></li>
-                <li><a href="">Buy Theme</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- Posts -->
-    <section class="posts">
-        <div class="posts-wrapper">
-            <div class="posts-bg-spacer flex ol-purple">
-
-                <div class="post i-flex ol-black">
-
-                    <div class="post-wrapper i-flex ol-blue">
-
-                        <div class="post-text i-flex fd-column ai-center ol-red">
-                            <ul class="categories">
-                                <li>
-                                    <a href="#">southeast asian secrets</a>
-                                </li>
-                                <li>
-                                    |
-                                </li>
-                                <li>
-                                    <a href="#">vietnam</a>
-                                </li>
-                            </ul>
-                            <div class="post-text-title txt-center">
-                                <h3><a href="#"></a>5 Ways to Make the Most of Your Trip to North Vietnam</a></h3>
-                            </div>
-                            <div class="post-text-content">There aren’t enough words in either the English or Norwegian dictionary to express how much I love Vietnam. Yes, the country is known for its beaches. But hear…</div>
-                            <div class="post-text-btn-rm"></div>
-
-                        </div>
-
-                    </div>
-                    <div class="post-image-large ol-green">
-
-                        <img src="http://nomady.minimaldog.net/wp-content/uploads/2020/11/ruslan-bardash-8MhejqEghLk-unsplash--600x338.jpg" alt="">
-
-                    </div>
-
+    <header>
+        <menu class="container">
+            <div class="navbar-wrapper col-10">
+                <nav>
+                    <ul class="text-3x">
+                        <li><a href="#hello">Hello</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </menu>
+        <div class="profile-wrapper container flex">
+            <div class="profile-pic col-4">
+                <img class="" src="assets/avatar.png" alt="avatar">
+            </div>
+            <div class="profile-details txt-col-white i-flex fd-column jc-sb col-8">
+                <div class="profile-title">
+                    <h2>John Anderson</h2>
+                    <p class="text-4x">frontend developer, QA-engineer</p>
                 </div>
-
+                <div class="profile-info">
+                    <dl>
+                        <dt>Age:</dt>
+                        <dd>23</dd>
+                        <dt>Phone:</dt>
+                        <dd><a href="tel:+82344563333">8 (234) 456-33-33</a></dd>
+                        <dt>E-mail:</dt>
+                        <dd><a href="mailto:mail@mail.com">mail@mail.com</a></dd>
+                        <dt>Adress:</dt>
+                        <dd>Melbourne Victoria 3000 Australia</dd>
+                    </dl>
+                </div>
+                <div class="profile-sm">
+                    <a href="#"><i class="fa fa-github"></i></a>
+                    <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                    <a href="#"><i class="fa fa-facebook-square"></i></a>
+                </div>
             </div>
         </div>
+    </header>
+    <div class="section-spacing-l"></div>
+    <section class="hello container" id="hello">
+        <div class="hello-details flex fd-column jc-se col-10">
+            <h3>Hi</h3>
+            <p>
+                I am Junior Web developer able to build a Web presence from the ground up - from concept, navigation,
+                layout and programming to UX and SEO. Skilled at writing well-designed, testable and efficient code using
+                current best practices in Web development. Fast learner, hard worker and team player who is proficient in
+                an array of scripting languages and multimedia Web tools.
+            </p>
+            <div class="hello-cv-btn">
+                <a href="#"><i class="fa-solid fa-file-arrow-down"></i>Download CV</a>
+            </div>
+        </div>       
     </section>
-    <!-- Articles -->
-    <div class="section-spacing"></div>
-    <section class="flex jc-center">
-        <div class="articles col-8 i-flex fd-column">
-            <h4 class="text-xl">Trending articles</h4>
-            <div class="cards i-flex jc-sa">
-                <!-- Article 1 -->
-                <div class="card-wrapper">
-                    <div class="card" style="background-image: url('./assets/art-1.webp')">
-                        <div class="card-bg">
-                            <a href="#"></a>
-                            <div class="card-content i-flex fd-column ai-center">
-                                <span class="circle">1</span>
-                                <div class="card-ctn i-flex fd-column ai-center">
-                                    <div class="card-ctn-title">
-                                        <a class="text-2x" href="#">Indonesia</a>
-                                    </div>
-                                    <h3><a href="#">10 Places to Visit in Indonesia (That Aren’t Bali)</a></h3>
-                                </div>
-                            </div>
-                            <div class="card-ctn-footer txt-col-white">
-                                March 31, 2021
-                            </div>
-                        </div>
-                    </div>
-            
-                </div>
-            
-                <!-- Article 2 -->
-                <div class="card-wrapper">
-                        <div class="card" style="background-image: url('./assets/art-2.webp')">
-                            <div class="card-bg">
-                                <a href="#"></a>
-                                <div class="card-content i-flex fd-column ai-center">
-                                    <span class="circle">2</span>
-                                    <div class="card-ctn i-flex fd-column ai-center">
-                                        <div class="card-ctn-title">
-                                            <a class="text-2x" href="#">Indonesia</a>
-                                        </div>
-                                        <h3><a href="#">10 Places to Visit in Indonesia (That Aren’t Bali)</a></h3>
-                                    </div>
-                                </div>
-                                <div class="card-ctn-footer txt-col-white">
-                                    March 31, 2021
-                                </div>
-                            </div>
-                        </div>
-                
-                </div>
-
-                <!-- Article 3 -->
-                <div class="card-wrapper">
-                    <div class="card" style="background-image: url('./assets/art-3.webp')">
-                        <div class="card-bg">
-                            <a href="#"></a>
-                            <div class="card-content i-flex fd-column ai-center">
-                                <span class="circle">3</span>
-                                <div class="card-ctn i-flex fd-column ai-center">
-                                    <div class="card-ctn-title">
-                                        <a class="text-2x" href="#">Indonesia</a>
-                                    </div>
-                                    <h3><a href="#">10 Places to Visit in Indonesia (That Aren’t Bali)</a></h3>
-                                </div>
-                            </div>
-                            <div class="card-ctn-footer txt-col-white">
-                                March 31, 2021
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Article 4 -->
-                <div class="card-wrapper">
-                    <div class="card" style="background-image: url('./assets/art-4.webp')">
-                        <div class="card-bg">
-                            <a href="#"></a>
-                            <div class="card-content i-flex fd-column ai-center">
-                                <span class="circle">4</span>
-                                <div class="card-ctn i-flex fd-column ai-center">
-                                    <div class="card-ctn-title">
-                                        <a class="text-2x" href="#">Indonesia</a>
-                                    </div>
-                                    <h3><a href="#">10 Places to Visit in Indonesia (That Aren’t Bali)</a></h3>
-                                </div>
-                            </div>
-                            <div class="card-ctn-footer txt-col-white">
-                                March 31, 2021
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>        
+    <div class="section-spacing-l"></div>
+    <section class="resume container" id="resume">
+        <div class="resume-details flex fd-column jc-se col-10">
+            <h3>Resume</h3>
+            <p>
+                Lorem ipsum dolor sit amet, <i><b>communication</b></i> adipisicing elit, <i><b>helpful</b></i> eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <i><b>sence of
+                humour</b></i> ullamco laboris nisi ut <i><b>honest</b></i> ea commodo consequat. Duis aute irure dolor in
+                upper-intermediate english level velit dolore eu ivivdtevoluptatem ontend developer.
+            </p>
+        </div>
+        <div class="resume-row">
+            <div class="resume col-8">
+              <h3 class="resume-title">education</h3>
+              <div class="resume-block">
+                <p class="resume-block-title">University of Minnesota Twin Cities </p>
+                <p class="resume-block-date">2006 - 2010</p>
+                <p>
+                  Bachelor Computer Engineering Lorem
+                </p>
+              </div>
+              <div class="resume-block">
+                <p class="resume-block-title">School of Informational technologies</p>
+                <p class="resume-block-date">2004 - 2005</p>
+                <p>
+                  Awesome student, lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius-
+                  mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                </p>
+              </div>
+              <div class="resume-block">
+                <p class="resume-block-title">Lorem Ipsum School</p>
+                <p class="resume-block-date">2003 - 2006</p>
+                <p>
+                  Student, Lorem ipsum dolor sit amet, consecte tur adipisicing elit, sed do eiusmod tempor
+                  incididunt ut
+                </p>
+              </div>
+            </div>
         </div>
     </section>
 </body>

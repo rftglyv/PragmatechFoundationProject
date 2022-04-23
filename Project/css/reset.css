@@ -1,31 +1,18 @@
+:root
+{
+    font-family: 'Roboto Mono', monospace;
+}
+html 
+{
+    scroll-behavior: smooth;
+}
 *
 {
     box-sizing: border-box;
-}
-h4,h5,h6
-{
-    font-family: Jost;
-}
-body
-{
     margin: 0;
-}
-.fa-brands,.fa-solid,.fa-regular
-{
-    color: black;
-    font-size: larger;
-}
-ul 
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-li
-{
-    display: inline-block;
 }
 a
 {
     text-decoration: none;
+    color: white;
 }
