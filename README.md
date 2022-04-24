@@ -3,7 +3,7 @@
 ## rftglyv
 
 Project Link
-http://nomady.minimaldog.net/
+https://previews.aspirity.com/spirit/
 
 ## Modul01-Day11 [12 Aprel 2022] Tasks
 
