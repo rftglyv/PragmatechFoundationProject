@@ -147,16 +147,14 @@
 }
 
 .col-6 {
-    width: calc((100%/12)*6)
-}
+    width: calc((100%/12)*6);}
 
 .col-7 {
     width: calc((100%/12)*7)
 }
 
 .col-8 {
-    width: calc((100%/12)*8)
-}
+    width: calc((100%/12)*8);}
 
 .col-9 {
     width: calc((100%/12)*9)
