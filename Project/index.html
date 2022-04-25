@@ -6,35 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/44e05cc47c.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="/project1/main.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&family=Roboto+Serif:wght@300;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/bs-components/bootstrap.css">
-    <link rel="stylesheet" href="/bs-components/carousel.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="/project1/bs-components/carousel.css">
+    <link rel="stylesheet" href="/project1/bs-components/navbar.css">
+    <link rel="stylesheet" href="/project1/css/reset.css">
+    <link rel="stylesheet" href="/project1/css/utilities.css">
+    <link rel="stylesheet" href="/project1/css/style.css">
     <title>SpirIT</title>
 </head>
 <body>
-    <header>
-        <menu class="container">
-            <div class="navbar-wrapper col-10">
-                <nav>
-                    <ul class="text-3x">
-                        <li><a href="#hello">Hello</a></li>
-                        <li><a href="#resume">Resume</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#testimonials">Testimonials</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
+    <header class="container-full flex fd-column">
+        <menu id="menu">
+            <div class="navbar-wrapper">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="/projects.html"><i class="fa-solid fa-caret-left"></i>Projects</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#hello">Hello</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#resume">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#testimonials">Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blog">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                  </nav>
             </div>
         </menu>
-        <div class="profile-wrapper container flex">
+        <div class="profile-wrapper col-9 as-center flex">
             <div class="profile-pic col-4">
-                <img class="" src="assets/avatar.png" alt="avatar">
+                <img class="" src="/project1/assets/avatar.png" alt="avatar">
             </div>
             <div class="profile-details txt-col-white i-flex fd-column jc-sb col-8">
                 <div class="profile-title">
@@ -62,7 +83,7 @@
         </div>
     </header>
     <div class="section-spacing-l"></div>
-    <section class="hello container" id="hello">
+    <section class="hello container-full flex" id="hello">
         <div class="hello-details flex fd-column jc-se col-10">
             <h3>Hi</h3>
             <p>
@@ -77,7 +98,7 @@
         </div>       
     </section>
     <div class="section-spacing-l"></div>
-    <section class="resume container" id="resume">
+    <section class="resume container-full" id="resume">
         <div class="resume-details flex fd-column jc-se col-10">
             <h3>Resume</h3>
             <p>
@@ -88,7 +109,7 @@
             </p>
         </div>
         <div class="resume-row">
-            <div class="resume col-8">
+            <div class="resume col-10">
               <h3 class="resume-title">education</h3>
               <div class="resume-block">
                 <p class="resume-block-title">University of Minnesota Twin Cities </p>
@@ -117,11 +138,11 @@
         </div>
     </section>
     <div class="section-spacing-l"></div>
-    <section class="portfolio container" id="portfolio">
-        <div class="portfolio-details">
+    <section class="portfolio container-full" id="portfolio">
+        <div class="portfolio-details col-10">
             <h3>My Projects</h3>
-            <menu class="container">
-                <div class="navbar-wrapper portfolio-menu col-10">
+            <menu class="container-full portfolio-menu">
+                <div class="navbar-wrapper portfolio-menu-wrapper">
                     <nav>
                         <ul class="text-2x">
                             <li><a href="#">all</a></li>
@@ -133,8 +154,8 @@
                 </div>
             </menu>
             <div class="post-cards flex fd-column ai-center">
-                <div class="posts-container i-flex container">
-                    <div class="post-image col-5"><img src="/assets/post-1.png" alt=""></div>
+                <div class="posts-container i-flex">
+                    <div class="post-image col-5"><img src="/project1/assets/post-1.png" alt=""></div>
                     <div class="post-meta i-flex fd-column jc-center col-7">
                         <div class="post-meta-wrapper i-flex fd-column jc-sb">
                             <div class="post-details">
@@ -159,8 +180,8 @@
                     </div>
                 </div>
                 <div class="section-spacing-s"></div>
-                <div class="posts-container i-flex container">
-                    <div class="post-image col-5"><img src="/assets/post-2.png" alt=""></div>
+                <div class="posts-container i-flex">
+                    <div class="post-image col-5"><img src="/project1/assets/post-2.png" alt=""></div>
                     <div class="post-meta i-flex fd-column jc-center col-7">
                         <div class="post-meta-wrapper i-flex fd-column jc-sb">
                             <div class="post-details">
@@ -186,8 +207,8 @@
                     </div>
                 </div>
                 <div class="section-spacing-s"></div>
-                <div class="posts-container i-flex container">
-                    <div class="post-image col-5"><img src="/assets/post-3.png" alt=""></div>
+                <div class="posts-container i-flex">
+                    <div class="post-image col-5"><img src="/project1/assets/post-3.png" alt=""></div>
                     <div class="post-meta i-flex fd-column jc-center col-7">
                         <div class="post-meta-wrapper i-flex fd-column jc-sb">
                             <div class="post-details">
@@ -216,10 +237,8 @@
         </div>
     </section>
     <div class="section-spacing-l"></div>
-    <section class="testimonials" id="testimonials">
-
-        <div class="testimonials-wrapper container">
-
+    <section class="testimonials container-full" id="testimonials">
+        <div class="testimonials-wrapper">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 1"></button>
@@ -306,12 +325,12 @@
 
     </section>
     <div class="section-spacing-l"></div>
-    <section class="blog container" id="blog">
-        <div class="blog-details container">
+    <section class="blog container-full" id="blog">
+        <div class="blog-details col-10">
             <h3>Latest Posts</h3>
             <div class="blog-posts-wrapper flex jc-sb">
-                <div class="posts-container i-flex fd-column">
-                    <div class="post-image"><img src="/assets/post-1.png" alt=""></div>
+                <div class="blog-posts-container i-flex fd-column">
+                    <div class="post-image"><img src="/project1/assets/post-1.png" alt=""></div>
                     <div class="post-meta i-flex fd-column jc-center">
                         <div class="blog-meta-wrapper i-flex fd-column jc-sb">
                             <div class="blog-post-details">
@@ -325,8 +344,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="posts-container i-flex fd-column">
-                    <div class="post-image"><img src="/assets/post-2.png" alt=""></div>
+                <div class="blog-posts-container i-flex fd-column">
+                    <div class="post-image"><img src="/project1/assets/post-2.png" alt=""></div>
                     <div class="post-meta i-flex fd-column jc-center">
                         <div class="blog-meta-wrapper i-flex fd-column jc-sb">
                             <div class="blog-post-details">
@@ -340,8 +359,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="posts-container i-flex fd-column">
-                    <div class="post-image"><img src="/assets/post-3.png" alt=""></div>
+                <div class="blog-posts-container i-flex fd-column">
+                    <div class="post-image"><img src="/project1/assets/post-3.png" alt=""></div>
                     <div class="post-meta i-flex fd-column jc-center">
                         <div class="blog-meta-wrapper i-flex fd-column jc-sb">
                             <div class="blog-post-details">
@@ -359,19 +378,19 @@
         </div>
     </section>
     <div class="section-spacing-l"></div>
-    <section class="contact" id="contact">
-        <div class="contact-container container">
+    <section class="contact container-full" id="contact">
+        <div class="contact-details col-10">
             <div class="contact-container-wrapper">
                 <div class="contact-section-title txt-col-white">
                     <h3>Get in touch</h3>
                 </div>
-                <div class="contact-info i-flex jc container">
+                <div class="contact-info i-flex container-full">
                     <div class="contact-list flex fd-column ai-start">
                         <div class="contacat-info-list">
                             <dl class="txt-col-white">
                                 <dt>Phone:</dt>
                                 <dd><a href="tel:+82344563333">8 (234) 456-33-33</a></dd>
-                                <dt>Skype</dt>
+                                <dt>Skype:</dt>
                                 <dd>iamivanovivan</dd>
                                 <dt>E-mail:</dt>
                                 <dd><a href="mailto:mail@mail.com">mail@mail.com</a></dd>

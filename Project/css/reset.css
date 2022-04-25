@@ -16,9 +16,10 @@ a
     text-decoration: none;
     color: white;
 }
-.hello-details,.resume-details,.portfolio-details,.blog-details
+.hello-details,.resume-details,.portfolio-details,.blog-details,.contact-details
 {
     color: #555555;
+    margin: auto;
 }
 .hello-details>h3,.resume-details>h3,.portfolio-details>h3,.blog-details>h3
 {
