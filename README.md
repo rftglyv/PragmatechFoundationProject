@@ -2,7 +2,7 @@
 
 ## Project Fished
 ### Perview
-https://rftglyv.github.io/project1/index.html
+https://rftglyv.github.io/portfolio.html
 
 ## Modul01-Day11 [12 Aprel 2022] Tasks
 
